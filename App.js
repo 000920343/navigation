@@ -9,7 +9,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 const Drawer = createDrawerNavigator();
 
 const App = () => {
-  const colorScheme = Appearance.getColorScheme(); // Detect light/dark mode
+  const colorScheme = Appearance.getColorScheme(); 
 
   return (
     <NavigationContainer theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
